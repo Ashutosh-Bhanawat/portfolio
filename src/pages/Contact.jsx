@@ -9,11 +9,6 @@ function Contact() {
     message: '',
   });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-  };
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -77,7 +72,6 @@ function Contact() {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              onSubmit={handleSubmit}
               className="bg-white rounded-xl shadow-lg p-8 space-y-6"
               action='https://formspree.io/f/xovjooqw'
               method='POST'
