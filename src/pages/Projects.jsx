@@ -7,8 +7,8 @@ function Projects() {
       description: 'Transform your fitness journey with us! Our gym offers top-notch equipment, expert trainers, and a motivating environment to help you achieve your health goals. ',
       tech: ['React', 'Tailwind CSS', 'HTML', 'CSS', 'JavaScript', 'Vercel' , 'Framer-motion'],
       image: 'https://placehold.co/600x400',
-      codeLink: "https://placehold.co/600x400",
-      liveLink: "https://make-monster-gym.vercel.app/"
+      codeLink: "https://github.com/Ashutosh-Bhanawat/Make-Monster-GYM",
+      liveLink: "https://make-monster-gym.vercel.app"
     },
     
     {
@@ -16,8 +16,8 @@ function Projects() {
       description: 'A modern portfolio website showcasing my work and skills',
       tech: ['React', 'Tailwind CSS', 'HTML', 'CSS', 'JavaScript', 'Vercel' , 'Framer-motion'],
       image:  "/Portfolio.png" ,
-      codeLink: 'https://placehold.co/600x400',
-      liveLink: 'https://make-monster-gym.vercel.app/'
+      codeLink: 'https://github.com/Ashutosh-Bhanawat/portfolio',
+      liveLink: 'https://aashutoshs-portfolio.vercel.app'
     },
   ];
 
