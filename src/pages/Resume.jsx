@@ -12,11 +12,11 @@ function Resume() {
           transition={{ duration: 0.8 }}
         >
           <div className="flex justify-between items-center mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold  text-blue-700 hover:text-blue-500">Resume</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-blue-700 hover:text-blue-500">Resume</h1>
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="/path-to-your-resume.pdf"
+              href="/Resume.pdf"
               download
               className="bg-gradient-to-r from-accent to-purple-600 text-white px-6 py-3 rounded-full hover:shadow-lg transition-shadow duration-300"
             >
@@ -24,13 +24,9 @@ function Resume() {
             </motion.a>
           </div>
 
-          <div className="bg-white rounded-xl shadow-xl overflow-hidden">
-            <div className="h-[800px]">
-              <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
-                <Viewer fileUrl="/path-to-your-resume.pdf" />
+              <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
+                <Viewer fileUrl="/Resume.pdf" />
               </Worker>
-            </div>
-          </div>
         </motion.div>
       </div>
     </div>
