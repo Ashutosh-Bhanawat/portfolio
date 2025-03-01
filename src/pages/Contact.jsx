@@ -37,7 +37,7 @@ function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-800">Location</h3>
-                      <p className="text-gray-600">Your City, Country</p>
+                      <p className="text-gray-600">Udaipur,Rajasthan</p>
                     </div>
                   </div>
 
@@ -47,7 +47,7 @@ function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-800">Email</h3>
-                      <p className="text-gray-600">your.email@example.com</p>
+                      <p className="text-gray-600">aashutoshbhanawat9876@email.com</p>
                     </div>
                   </div>
 
@@ -57,7 +57,7 @@ function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-800">Phone</h3>
-                      <p className="text-gray-600">+1 234 567 890</p>
+                      <p className="text-gray-600">+91 9950481561</p>
                     </div>
                   </div>
                 </div>

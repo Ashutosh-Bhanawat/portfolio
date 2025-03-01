@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 function Projects() {
   const projects = [
     {
-      title: 'Make-Monster gym website',
+      title: 'Make-Monster Gym Website',
       description: 'Transform your fitness journey with us! Our gym offers top-notch equipment, expert trainers, and a motivating environment to help you achieve your health goals. ',
       tech: ['React', 'Tailwind CSS', 'HTML', 'CSS', 'JavaScript', 'Vercel' , 'Framer-motion'],
       image: 'https://placehold.co/600x400',
@@ -13,7 +13,7 @@ function Projects() {
     
     {
       title: 'Portfolio Website',
-      description: 'A modern portfolio website showcasing my work and skills',
+      description: 'Discover my journey of creativity and innovation! This portfolio showcases my skills, projects, and expertise, reflecting my passion for excellence and design.',
       tech: ['React', 'Tailwind CSS', 'HTML', 'CSS', 'JavaScript', 'Vercel' , 'Framer-motion'],
       image:  "/Portfolio.png" ,
       codeLink: 'https://github.com/Ashutosh-Bhanawat/portfolio',
