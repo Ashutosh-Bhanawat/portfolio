@@ -43,7 +43,7 @@ function Home() {
             <div className="absolute inset-0 bg-gradient-to-r from-accent to-purple-600 rounded-full blur-2xl opacity-20 animate-pulse"></div>
             <div className="relative aspect-square overflow-hidden rounded-full border-8 border-white shadow-2xl">
               <img
-                src="/Ashutosh.jpg" // Replace with your photo URL
+                src="/Ashu.jpg" // Replace with your photo URL
                 alt="Ashutosh Bhanawat"
                 className="w-full h-full object-cover"
               />
