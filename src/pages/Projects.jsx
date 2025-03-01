@@ -27,7 +27,7 @@ function Projects() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          tranerrsition={{ duration: 0.8 }}
         >
           <h1 className="text-4xl md:text-5xl font-bold  text-blue-700 hover:text-blue-500 mb-12">My Projects</h1>
           
