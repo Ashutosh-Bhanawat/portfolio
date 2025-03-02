@@ -6,7 +6,7 @@ function Projects() {
       title: 'Make-Monster Gym Website',
       description: 'Transform your fitness journey with us! Our gym offers top-notch equipment, expert trainers, and a motivating environment to help you achieve your health goals. ',
       tech: ['React', 'Tailwind CSS', 'HTML', 'CSS', 'JavaScript', 'Vercel' , 'Framer-motion'],
-      image: 'https://placehold.co/600x400',
+      image: '/GYM.png',
       codeLink: "https://github.com/Ashutosh-Bhanawat/Make-Monster-GYM",
       liveLink: "https://make-monster-gym.vercel.app"
     },
